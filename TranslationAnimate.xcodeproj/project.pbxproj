@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		D70BCEE41EA6F77700E920B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D70BCEE31EA6F77700E920B0 /* main.m */; };
 		D70BCEE71EA6F77700E920B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D70BCEE61EA6F77700E920B0 /* AppDelegate.m */; };
-		D70BCEEA1EA6F77700E920B0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D70BCEE91EA6F77700E920B0 /* ViewController.m */; };
-		D70BCEED1EA6F77700E920B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D70BCEEB1EA6F77700E920B0 /* Main.storyboard */; };
 		D70BCEEF1EA6F77700E920B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D70BCEEE1EA6F77700E920B0 /* Assets.xcassets */; };
 		D70BCEF21EA6F77700E920B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D70BCEF01EA6F77700E920B0 /* LaunchScreen.storyboard */; };
 		D70BCEFD1EA6F77700E920B0 /* TranslationAnimateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D70BCEFC1EA6F77700E920B0 /* TranslationAnimateTests.m */; };
 		D70BCF081EA6F77700E920B0 /* TranslationAnimateUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D70BCF071EA6F77700E920B0 /* TranslationAnimateUITests.m */; };
+		D70BCF1D1EA6F7C900E920B0 /* FromViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D70BCF1C1EA6F7C900E920B0 /* FromViewController.m */; };
+		D70BCF201EA6F8E200E920B0 /* TranslationAnimateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D70BCF1F1EA6F8E200E920B0 /* TranslationAnimateManager.m */; };
+		D70BCF3C1EA7490300E920B0 /* ToViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D70BCF191EA6F7B500E920B0 /* ToViewController.m */; };
+		D70BCF3F1EA7547600E920B0 /* UIView+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D70BCF3E1EA7547600E920B0 /* UIView+Snapshot.m */; };
+		D70BCF451EA76BA400E920B0 /* SwipeInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = D70BCF441EA76BA400E920B0 /* SwipeInteractiveTransition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +42,6 @@
 		D70BCEE31EA6F77700E920B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D70BCEE51EA6F77700E920B0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D70BCEE61EA6F77700E920B0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D70BCEE81EA6F77700E920B0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D70BCEE91EA6F77700E920B0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D70BCEEC1EA6F77700E920B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D70BCEEE1EA6F77700E920B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D70BCEF11EA6F77700E920B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D70BCEF31EA6F77700E920B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +51,16 @@
 		D70BCF031EA6F77700E920B0 /* TranslationAnimateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TranslationAnimateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D70BCF071EA6F77700E920B0 /* TranslationAnimateUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TranslationAnimateUITests.m; sourceTree = "<group>"; };
 		D70BCF091EA6F77700E920B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D70BCF181EA6F7B500E920B0 /* ToViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToViewController.h; sourceTree = "<group>"; };
+		D70BCF191EA6F7B500E920B0 /* ToViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToViewController.m; sourceTree = "<group>"; };
+		D70BCF1B1EA6F7C900E920B0 /* FromViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FromViewController.h; sourceTree = "<group>"; };
+		D70BCF1C1EA6F7C900E920B0 /* FromViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FromViewController.m; sourceTree = "<group>"; };
+		D70BCF1E1EA6F8E200E920B0 /* TranslationAnimateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TranslationAnimateManager.h; sourceTree = "<group>"; };
+		D70BCF1F1EA6F8E200E920B0 /* TranslationAnimateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TranslationAnimateManager.m; sourceTree = "<group>"; };
+		D70BCF3D1EA7547600E920B0 /* UIView+Snapshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Snapshot.h"; sourceTree = "<group>"; };
+		D70BCF3E1EA7547600E920B0 /* UIView+Snapshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Snapshot.m"; sourceTree = "<group>"; };
+		D70BCF431EA76BA400E920B0 /* SwipeInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeInteractiveTransition.h; sourceTree = "<group>"; };
+		D70BCF441EA76BA400E920B0 /* SwipeInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeInteractiveTransition.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,15 +111,22 @@
 		D70BCEE11EA6F77700E920B0 /* TranslationAnimate */ = {
 			isa = PBXGroup;
 			children = (
+				D70BCF3D1EA7547600E920B0 /* UIView+Snapshot.h */,
+				D70BCF3E1EA7547600E920B0 /* UIView+Snapshot.m */,
 				D70BCEE51EA6F77700E920B0 /* AppDelegate.h */,
 				D70BCEE61EA6F77700E920B0 /* AppDelegate.m */,
-				D70BCEE81EA6F77700E920B0 /* ViewController.h */,
-				D70BCEE91EA6F77700E920B0 /* ViewController.m */,
-				D70BCEEB1EA6F77700E920B0 /* Main.storyboard */,
 				D70BCEEE1EA6F77700E920B0 /* Assets.xcassets */,
 				D70BCEF01EA6F77700E920B0 /* LaunchScreen.storyboard */,
 				D70BCEF31EA6F77700E920B0 /* Info.plist */,
 				D70BCEE21EA6F77700E920B0 /* Supporting Files */,
+				D70BCF181EA6F7B500E920B0 /* ToViewController.h */,
+				D70BCF191EA6F7B500E920B0 /* ToViewController.m */,
+				D70BCF1B1EA6F7C900E920B0 /* FromViewController.h */,
+				D70BCF1C1EA6F7C900E920B0 /* FromViewController.m */,
+				D70BCF1E1EA6F8E200E920B0 /* TranslationAnimateManager.h */,
+				D70BCF1F1EA6F8E200E920B0 /* TranslationAnimateManager.m */,
+				D70BCF431EA76BA400E920B0 /* SwipeInteractiveTransition.h */,
+				D70BCF441EA76BA400E920B0 /* SwipeInteractiveTransition.m */,
 			);
 			path = TranslationAnimate;
 			sourceTree = "<group>";
@@ -251,7 +268,6 @@
 			files = (
 				D70BCEF21EA6F77700E920B0 /* LaunchScreen.storyboard in Resources */,
 				D70BCEEF1EA6F77700E920B0 /* Assets.xcassets in Resources */,
-				D70BCEED1EA6F77700E920B0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,9 +292,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D70BCEEA1EA6F77700E920B0 /* ViewController.m in Sources */,
+				D70BCF3F1EA7547600E920B0 /* UIView+Snapshot.m in Sources */,
+				D70BCF3C1EA7490300E920B0 /* ToViewController.m in Sources */,
 				D70BCEE71EA6F77700E920B0 /* AppDelegate.m in Sources */,
 				D70BCEE41EA6F77700E920B0 /* main.m in Sources */,
+				D70BCF451EA76BA400E920B0 /* SwipeInteractiveTransition.m in Sources */,
+				D70BCF1D1EA6F7C900E920B0 /* FromViewController.m in Sources */,
+				D70BCF201EA6F8E200E920B0 /* TranslationAnimateManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,14 +334,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D70BCEEB1EA6F77700E920B0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D70BCEEC1EA6F77700E920B0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D70BCEF01EA6F77700E920B0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -429,6 +441,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = V5QYPYR594;
 				INFOPLIST_FILE = TranslationAnimate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = renhuachi.TranslationAnimate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -441,6 +454,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = V5QYPYR594;
 				INFOPLIST_FILE = TranslationAnimate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = renhuachi.TranslationAnimate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -516,6 +530,7 @@
 				D70BCF0E1EA6F77700E920B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D70BCF0F1EA6F77700E920B0 /* Build configuration list for PBXNativeTarget "TranslationAnimateTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +539,7 @@
 				D70BCF111EA6F77700E920B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D70BCF121EA6F77700E920B0 /* Build configuration list for PBXNativeTarget "TranslationAnimateUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +548,7 @@
 				D70BCF141EA6F77700E920B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

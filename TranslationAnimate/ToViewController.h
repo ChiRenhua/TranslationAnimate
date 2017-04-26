@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ToViewController.h
 //  TranslationAnimate
 //
 //  Created by Renhuachi on 2017/4/19.
@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SwipeInteractiveTransition.h"
 
-@interface ViewController : UIViewController
-
+@interface ToViewController : UIViewController
 
 @end
-
